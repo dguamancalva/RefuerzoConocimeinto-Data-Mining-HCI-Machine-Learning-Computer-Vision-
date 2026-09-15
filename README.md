@@ -11,12 +11,12 @@
 - **Mañana (2 horas - Bloques 50/10):** Enfoque teórico (videos, documentación). Aplicar **Técnica Feynman Oral** (explicar en voz alta o grabar audios de 1 min basándose en esquemas y dibujos rápidos en papel).
 - **Tarde (Práctica activa):** Resolución de retos de código, depuración de errores y feedback interactivo (sin ayudas automáticas).
 
-## 🗓️ Plan Semanal Ajustado (9 - 14 de Septiembre)
-- **Miércoles (Hoy):** Regresión Lineal (ML Supervisado para números) $\rightarrow$ Reto 12.
-- **Jueves:** Métricas Avanzadas y Matriz de Confusión $\rightarrow$ Reto 13.
-- **Viernes:** ML No Supervisado (Clustering - K-Means) $\rightarrow$ Reto 14.
-- **Lunes:** Proyecto Integrador de ML (Pipeline Completo) $\rightarrow$ Reto 15.
-- **Martes:** Preparación de Portafolio y GitHub.
+## 🗓️ Plan Semanal Actualizado (14 - 18 de Septiembre)
+- **Lunes (14 Sept):** Pipeline ML End-to-End & Exportación (`joblib`) $\rightarrow$ Reto 15 (Completado 10/10).
+- **Martes (15 Sept - Hoy):** Git & GitHub Profesional (Configuración, `.gitignore`, Conventional Commits) $\rightarrow$ Reto 16 (Completado 10/10).
+- **Miércoles (16 Sept - Mañana):** Visualización Web Interactiva (Plotly Express) $\rightarrow$ Reto 17.
+- **Jueves (17 Sept):** Minería de Datos (Reglas de Asociación / Algoritmo Apriori) $\rightarrow$ Reto 18.
+- **Viernes (18 Sept):** Simulación de Entrevista Técnica Junior & Evaluación Práctica.
 
 ---
 
@@ -60,6 +60,22 @@
 | **13** | [Matriz de Confusión y Métricas](file:///home/deivy/Documentos/Aprendizaje/modulo_4_machine_learning/Actividad13.py) | `confusion_matrix`, `classification_report`, `sns.heatmap` | Completado | 10/10 |
 | **14** | [Clustering K-Means y Método del Codo](file:///home/deivy/Documentos/Aprendizaje/modulo_4_machine_learning/Actividad14.py) | `KMeans`, `inertia_`, gráfica del codo en `sns.lineplot`, asignación de clusters | Completado | 10/10 |
 | **15** | [Proyecto Integrador de ML (End-to-End)](file:///home/deivy/Documentos/Aprendizaje/modulo_4_machine_learning/Actividad15.py) | Cargar `.csv`, SQL, EDA Seaborn, `joblib` export, Pipeline completo | Completado | 10/10 |
+
+---
+
+## 🐙 Tabla de Progreso (Módulo 5: Git & GitHub Profesional)
+
+| Reto | Tema Principal | Conceptos Clave | Estado | Nota |
+| :---: | :--- | :--- | :---: | :---: |
+| **16** | [Configuración y Repositorio Público](file:///home/deivy/Documentos/Aprendizaje/README.md) | `git init`, `.gitignore`, `Conventional Commits`, `git push origin main` | Completado | 10/10 |
+
+---
+
+## 📈 Tabla de Progreso (Módulo 6: Visualización Web Interactiva - Plotly)
+
+| Reto | Tema Principal | Conceptos Clave | Estado | Nota |
+| :---: | :--- | :--- | :---: | :---: |
+| **17** | **Gráficos Interactivos Web** | `plotly.express`, `px.scatter`, `px.bar`, `write_html` | **En Progreso** | Pendiente |
 
 ---
 
