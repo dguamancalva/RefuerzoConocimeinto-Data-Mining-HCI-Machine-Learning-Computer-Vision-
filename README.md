@@ -75,7 +75,23 @@
 
 | Reto | Tema Principal | Conceptos Clave | Estado | Nota |
 | :---: | :--- | :--- | :---: | :---: |
-| **17** | **Gráficos Interactivos Web** | `plotly.express`, `px.scatter`, `px.bar`, `write_html` | **En Progreso** | Pendiente |
+| **17** | [Gráficos Interactivos Web](file:///home/deivy/Documentos/Aprendizaje/modulo_6_plotly/Actividad17.py) | `plotly.express`, `px.scatter`, `px.bar`, `write_html` | Completado | 10/10 |
+
+---
+
+## ⛏️ Tabla de Progreso (Módulo 7: Minería de Datos - Reglas de Asociación & Apriori)
+
+| Reto | Tema Principal | Conceptos Clave | Estado | Nota |
+| :---: | :--- | :--- | :---: | :---: |
+| **18** | [Reglas de Asociación (Apriori)](file:///home/deivy/Documentos/Aprendizaje/modulo_7_mineria/Actividad18.py) | `mlxtend`, `TransactionEncoder`, `apriori`, `association_rules`, Support, Confidence, Lift | Completado | 10/10 |
+
+---
+
+## 🏆 Tabla de Progreso (Módulo 8: Simulación de Evaluación Técnica & Entrevista Junior)
+
+| Reto | Tema Principal | Conceptos Clave | Estado | Nota |
+| :---: | :--- | :--- | :---: | :---: |
+| **19** | [Evaluación Integradora End-to-End](file:///home/deivy/Documentos/Aprendizaje/evaluacion_final/Actividad19.py) | Pipeline Pandas + ML DecisionTree + Plotly HTML + Git Commit | Completado | 10/10 |
 
 ---
 
