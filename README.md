@@ -11,12 +11,21 @@
 - **Mañana (2 horas - Bloques 50/10):** Enfoque teórico (videos, documentación). Aplicar **Técnica Feynman Oral** (explicar en voz alta o grabar audios de 1 min basándose en esquemas y dibujos rápidos en papel).
 - **Tarde (Práctica activa):** Resolución de retos de código, depuración de errores y feedback interactivo (sin ayudas automáticas).
 
-## 🗓️ Plan Semanal Actualizado (14 - 18 de Septiembre)
+## 🗓️ Plan Semanal Concluido (14 - 18 de Septiembre)
 - **Lunes (14 Sept):** Pipeline ML End-to-End & Exportación (`joblib`) $\rightarrow$ Reto 15 (Completado 10/10).
-- **Martes (15 Sept - Hoy):** Git & GitHub Profesional (Configuración, `.gitignore`, Conventional Commits) $\rightarrow$ Reto 16 (Completado 10/10).
-- **Miércoles (16 Sept - Mañana):** Visualización Web Interactiva (Plotly Express) $\rightarrow$ Reto 17.
-- **Jueves (17 Sept):** Minería de Datos (Reglas de Asociación / Algoritmo Apriori) $\rightarrow$ Reto 18.
-- **Viernes (18 Sept):** Simulación de Entrevista Técnica Junior & Evaluación Práctica.
+- **Martes (15 Sept):** Git & GitHub Profesional (`.gitignore`, Conventional Commits) $\rightarrow$ Reto 16 (Completado 10/10).
+- **Miércoles (16 Sept):** Visualización Web Interactiva (Plotly Express) $\rightarrow$ Reto 17 (Completado 10/10).
+- **Jueves (17 Sept):** Minería de Datos (Reglas de Asociación / Algoritmo Apriori) $\rightarrow$ Reto 18 (Completado 10/10).
+- **Viernes (18 Sept):** Simulación de Entrevista Técnica Junior & Evaluación Práctica $\rightarrow$ Reto 19 (Completado 10/10).
+
+---
+
+## 🗓️ Plan Semanal Actualizado (21 - 25 de Septiembre: Nivel Intermedio & Datasets Reales)
+- **Lunes (21 Sept):** Limpieza Avanzada & Tratamiento de Outliers (IQR / Imputación) $\rightarrow$ Reto 20.
+- **Martes (22 Sept):** Machine Learning Avanzado (Cross-Validation & GridSearchCV) $\rightarrow$ Reto 21.
+- **Miércoles (23 Sept):** Minería de Datos II (Clustering K-Means & Silhouette Score) $\rightarrow$ Reto 22.
+- **Jueves (24 Sept):** Introducción a Visión por Computador (OpenCV & Matrices NumPy) $\rightarrow$ Reto 23.
+- **Viernes (25 Sept):** Proyecto Integrador de Nivel Intermedio & Simulación de Presentación $\rightarrow$ Reto 24.
 
 ---
 
@@ -95,8 +104,56 @@
 
 ---
 
+## 🧹 Tabla de Progreso (Módulo 9: Limpieza Avanzada & Tratamiento de Outliers IQR)
+
+| Reto | Tema Principal | Conceptos Clave | Estado | Nota |
+| :---: | :--- | :--- | :---: | :---: |
+| **20** | [Imputación y Filtrado IQR](file:///home/deivy/Documentos/Aprendizaje/modulo_8_limpieza_avanzada/Actividad20.py) | `SimpleImputer`, `median`, Quantiles ($Q1$, $Q3$), $IQR$, Boxplot Plotly | Completado | 10/10 |
+
+---
+
+## 🤖 Tabla de Progreso (Módulo 10: Machine Learning Avanzado - Cross-Validation & GridSearchCV)
+
+| Reto | Tema Principal | Conceptos Clave | Estado | Nota |
+| :---: | :--- | :--- | :---: | :---: |
+| **21** | [Optimización de Modelos y K-Fold](file:///home/deivy/Documentos/Aprendizaje/modulo_9_ml_avanzado/Actividad21.py) | `cross_val_score`, `GridSearchCV`, `best_params_`, `joblib` | Completado | 10/10 |
+
+---
+
+## ⛏️ Tabla de Progreso (Módulo 11: Minería de Datos II - Clustering & Silhouette Score)
+
+| Reto | Tema Principal | Conceptos Clave | Estado | Nota |
+| :---: | :--- | :--- | :---: | :---: |
+| **22** | [Segmentación Avanzada y Silueta](file:///home/deivy/Documentos/Aprendizaje/modulo_10_clustering/Actividad22.py) | `KMeans`, `silhouette_score`, `n_clusters`, Plotly Scatter | Completado | 10/10 |
+
+---
+
+## 👁️ Tabla de Progreso (Módulo 12: Visión por Computador - OpenCV & NumPy)
+
+| Reto | Tema Principal | Conceptos Clave | Estado | Nota |
+| :---: | :--- | :--- | :---: | :---: |
+| **23** | [Procesamiento Digital de Imágenes](file:///home/deivy/Documentos/Aprendizaje/modulo_11_computer_vision/Actividad23.py) | `cv2.imread`, `cvtColor`, `threshold`, `Canny`, NumPy shape | Completado | 10/10 |
+
+---
+
 ## 🧠 Conceptos Clave para Entrevistas y Exámenes
 1. **DataFrames vs Dicts:** Un DataFrame procesa datos vectorialmente (en paralelo), los diccionarios requieren bucles `for` (lentos).
 2. **Boolean Masks:** Filtrar filas pasando una serie de `True`/`False`. `df[df['A'] > 5]`.
 3. **Left Join vs Inner Join:** Inner busca intersección exacta; Left conserva toda la tabla izquierda y rellena vacíos con `NaN`.
 4. **Dummies vs Mapping:** Mapping si hay orden lógico (ordinal); Dummies (One-Hot) si las categorías son independientes (nominal) para evitar sesgos en modelos de ML.
+
+---
+
+## 🐙 Guía Rápida de Conventional Commits (Estándar Git Profesional)
+
+Utiliza estos prefijos profesionales en el mensaje de tus commits (`git commit -m "prefijo: descripción"`):
+
+| Prefijo | Uso Principal | Ejemplo de Mensaje |
+| :--- | :--- | :--- |
+| `feat:` | **Nueva funcionalidad** o característica agregada al código | `git commit -m "feat: agregar grafico de barras plotly"` |
+| `fix:` | **Corrección de un error** o bug solucionado en el código | `git commit -m "fix: corregir ruta de guardado en write_html"` |
+| `docs:` | Cambios **únicamente en documentación** (README, notas) | `git commit -m "docs: actualizar itinerario semanal"` |
+| `chore:` | Tareas secundarias, dependencias (`requirements.txt`, `.gitignore`) | `git commit -m "chore: agregar requirements.txt"` |
+| `refactor:` | Reestructurar código sin añadir funcionalidades ni arreglar bugs | `git commit -m "refactor: optimizar funcion de preprocesamiento"` |
+| `style:` | Cambios estéticos que no afectan la lógica (espacios, formato) | `git commit -m "style: dar formato PEP8 a script de ML"` |
+| `test:` | Agregar o modificar **pruebas unitarias** o de evaluación | `git commit -m "test: agregar script de evaluacion integradora"` |
