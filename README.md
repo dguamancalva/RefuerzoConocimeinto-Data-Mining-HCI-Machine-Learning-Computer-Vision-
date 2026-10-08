@@ -20,12 +20,21 @@
 
 ---
 
-## 🗓️ Plan Semanal Actualizado (21 - 25 de Septiembre: Nivel Intermedio & Datasets Reales)
-- **Lunes (21 Sept):** Limpieza Avanzada & Tratamiento de Outliers (IQR / Imputación) $\rightarrow$ Reto 20.
-- **Martes (22 Sept):** Machine Learning Avanzado (Cross-Validation & GridSearchCV) $\rightarrow$ Reto 21.
-- **Miércoles (23 Sept):** Minería de Datos II (Clustering K-Means & Silhouette Score) $\rightarrow$ Reto 22.
-- **Jueves (24 Sept):** Introducción a Visión por Computador (OpenCV & Matrices NumPy) $\rightarrow$ Reto 23.
-- **Viernes (25 Sept):** Proyecto Integrador de Nivel Intermedio & Simulación de Presentación $\rightarrow$ Reto 24.
+## 🗓️ Plan Semanal Concluido (21 - 25 de Septiembre: Nivel Intermedio)
+- **Lunes (21 Sept):** Limpieza Avanzada & Tratamiento de Outliers (IQR / Imputación) $\rightarrow$ Reto 20 (Completado 10/10).
+- **Martes (22 Sept):** Machine Learning Avanzado (Cross-Validation & GridSearchCV) $\rightarrow$ Reto 21 (Completado 10/10).
+- **Miércoles (23 Sept):** Minería de Datos II (Clustering K-Means & Silhouette Score) $\rightarrow$ Reto 22 (Completado 10/10).
+- **Jueves (24 Sept):** Introducción a Visión por Computador (OpenCV & Matrices NumPy) $\rightarrow$ Reto 23 (Completado 10/10).
+- **Viernes (25 Sept):** Proyecto Integrador Nivel Intermedio $\rightarrow$ Reto 24 (Completado 10/10).
+
+---
+
+## 🗓️ Plan Semanal Actualizado (5 - 9 de Octubre: Nivel Avanzado & Producción)
+- **Lunes (5 Oct):** Procesamiento de Lenguaje Natural (NLP) & Análisis de Sentimientos $\rightarrow$ Reto 25.
+- **Martes (6 Oct):** Computer Vision II (Detección de Objetos y Contornos con OpenCV) $\rightarrow$ Reto 26.
+- **Miércoles (7 Oct):** Redes Neuronales & Introducción a Deep Learning (`MLPClassifier`) $\rightarrow$ Reto 27.
+- **Jueves (8 Oct):** Despliegue de Modelos con API REST (`FastAPI` & `Uvicorn`) $\rightarrow$ Reto 28.
+- **Viernes (9 Oct):** Proyecto Integrador Avanzado & Despliegue Completo en GitHub $\rightarrow$ Reto 29.
 
 ---
 
@@ -104,7 +113,7 @@
 
 ---
 
-## 🧹 Tabla de Progreso (Módulo 9: Limpieza Avanzada & Tratamiento de Outliers IQR)
+## 🧹 Tabla de Progreso (Módulo 8: Limpieza Avanzada & Tratamiento de Outliers IQR)
 
 | Reto | Tema Principal | Conceptos Clave | Estado | Nota |
 | :---: | :--- | :--- | :---: | :---: |
@@ -112,7 +121,7 @@
 
 ---
 
-## 🤖 Tabla de Progreso (Módulo 10: Machine Learning Avanzado - Cross-Validation & GridSearchCV)
+## 🤖 Tabla de Progreso (Módulo 9: Machine Learning Avanzado - Cross-Validation & GridSearchCV)
 
 | Reto | Tema Principal | Conceptos Clave | Estado | Nota |
 | :---: | :--- | :--- | :---: | :---: |
@@ -120,7 +129,7 @@
 
 ---
 
-## ⛏️ Tabla de Progreso (Módulo 11: Minería de Datos II - Clustering & Silhouette Score)
+## ⛏️ Tabla de Progreso (Módulo 10: Minería de Datos II - Clustering & Silhouette Score)
 
 | Reto | Tema Principal | Conceptos Clave | Estado | Nota |
 | :---: | :--- | :--- | :---: | :---: |
@@ -128,11 +137,35 @@
 
 ---
 
-## 👁️ Tabla de Progreso (Módulo 12: Visión por Computador - OpenCV & NumPy)
+## 👁️ Tabla de Progreso (Módulo 11: Visión por Computador - OpenCV & NumPy)
 
 | Reto | Tema Principal | Conceptos Clave | Estado | Nota |
 | :---: | :--- | :--- | :---: | :---: |
 | **23** | [Procesamiento Digital de Imágenes](file:///home/deivy/Documentos/Aprendizaje/modulo_11_computer_vision/Actividad23.py) | `cv2.imread`, `cvtColor`, `threshold`, `Canny`, NumPy shape | Completado | 10/10 |
+
+---
+
+## 🏆 Tabla de Progreso (Módulo 12: Evaluación Semanal 2 - Proyecto Integrador Intermedio)
+
+| Reto | Tema Principal | Conceptos Clave | Estado | Nota |
+| :---: | :--- | :--- | :---: | :---: |
+| **24** | [Proyecto Integrador Nivel Intermedio](file:///home/deivy/Documentos/Aprendizaje/evaluacion_semanal_2/Actividad24.py) | CSV Real + IQR + GridSearchCV ML + Plotly HTML + Joblib | Completado | 10/10 |
+
+---
+
+## 🔤 Tabla de Progreso (Módulo 13: Procesamiento de Lenguaje Natural - NLP & Sentimientos)
+
+| Reto | Tema Principal | Conceptos Clave | Estado | Nota |
+| :---: | :--- | :--- | :---: | :---: |
+| **25** | [Análisis de Sentimientos con TF-IDF](file:///home/deivy/Documentos/Aprendizaje/modulo_13_nlp/Actividad25.py) | `TfidfVectorizer`, `strip_accents='unicode'`, `MultinomialNB`, NLP | Completado | 10/10 |
+
+---
+
+## 👁️ Tabla de Progreso (Módulo 14: Visión por Computador II - Detección de Objetos & Bounding Boxes)
+
+| Reto | Tema Principal | Conceptos Clave | Estado | Nota |
+| :---: | :--- | :--- | :---: | :---: |
+| **26** | [Detección y Conteo de Contornos](file:///home/deivy/Documentos/Aprendizaje/modulo_14_cv_avanzado/Actividad26.py) | `findContours`, `contourArea`, `boundingRect`, `rectangle`, OpenCV | Completado | 10/10 |
 
 ---
 
